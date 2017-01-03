@@ -110,6 +110,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="rpi-rgb-led-matrix-master\adapter\kicad-scripts\makefile.inc" />
+    <None Include="rpi-rgb-led-matrix-master\lib\.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rpi-rgb-led-matrix-master\examples-api-use\c-example.c" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\examples-api-use\demo-main.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\examples-api-use\minimal-example.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\examples-api-use\text-example.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\bdf-font.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\framebuffer.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\gpio.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\graphics.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\hardware-mapping.c" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\led-matrix-c.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\led-matrix.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\options-initialize.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\thread.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\transformer.cc" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\python\rgbmatrix\core.cpp" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\python\rgbmatrix\graphics.cpp" />
+    <ClCompile Include="rpi-rgb-led-matrix-master\utils\led-image-viewer.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\canvas.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\gpio.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\graphics.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\led-matrix-c.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\led-matrix.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\thread.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\threaded-canvas-manipulator.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\transformer.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\lib\framebuffer-internal.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\lib\hardware-mapping.h" />
+    <ClInclude Include="rpi-rgb-led-matrix-master\lib\utf8-internal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -14,4 +14,98 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="rpi-rgb-led-matrix-master\lib\.gitignore" />
+    <None Include="rpi-rgb-led-matrix-master\adapter\kicad-scripts\makefile.inc">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\bdf-font.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\examples-api-use\c-example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\examples-api-use\demo-main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\examples-api-use\minimal-example.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\examples-api-use\text-example.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\framebuffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\gpio.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\graphics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\hardware-mapping.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\led-matrix.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\led-matrix-c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\options-initialize.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\thread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\lib\transformer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\python\rgbmatrix\core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\python\rgbmatrix\graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpi-rgb-led-matrix-master\utils\led-image-viewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\canvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\gpio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\led-matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\led-matrix-c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\threaded-canvas-manipulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\include\transformer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\lib\framebuffer-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\lib\hardware-mapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpi-rgb-led-matrix-master\lib\utf8-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
